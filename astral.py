@@ -4,9 +4,9 @@ from typing import Any, Literal
 
 import ttkbootstrap as ttkb
 from stlrcore import Transcription
-from stlrcore.utils import truncate_path
 
 from src.ui import CDropdown, CEntry, CSwitch, CText, file_selection_row
+from src.utils import truncate_path
 from src.vn import ATLImageGenerator
 
 

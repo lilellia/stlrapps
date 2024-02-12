@@ -8,7 +8,8 @@ from typing import NamedTuple
 from loguru import logger
 from stlrcore import Transcription
 from stlrcore.transcribe import WordTiming
-from stlrcore.utils import frange, get_space_prefix, read_leading_float
+
+from src.utils import frange, get_space_prefix, read_leading_float
 
 
 def wait_tag(seconds: float, *, precision: int = 2) -> str:
