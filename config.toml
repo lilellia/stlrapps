@@ -1,0 +1,29 @@
+[astral]
+# ui theme. For options, see
+# https://ttkbootstrap.readthedocs.io/en/latest/themes/dark/
+# https://ttkbootstrap.readthedocs.io/en/latest/themes/light/
+theme = "darkly"
+
+# Determine how the animation timings should be aligned. options: fixed, word
+# fixed -> animation timings are constant, even if this doesn't line up with word boundaries
+# word -> animation timings are altered to force closing animations to line up with word boundaries
+alignment_type = "fixed"
+
+# The target time (in seconds) for each animation frame.
+frame_length = 0.2
+
+# The number of spaces to indent...
+initial_indent = 4      # ...the entire block
+additional_indent = 4   # ...lines within that block
+
+[stlrapp]
+# ui theme. For options, see
+# https://ttkbootstrap.readthedocs.io/en/latest/themes/dark/
+# https://ttkbootstrap.readthedocs.io/en/latest/themes/light/
+theme = "darkly"
+
+[selene]
+# ui theme. For options, see
+# https://ttkbootstrap.readthedocs.io/en/latest/themes/dark/
+# https://ttkbootstrap.readthedocs.io/en/latest/themes/light/
+theme = "darkly"

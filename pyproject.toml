@@ -1,0 +1,25 @@
+[project]
+name = "stlrapps"
+version = "1.0.0"
+authors = [
+    { name = "Lily Ellington", email = "pixielf.0@gmail.com" },
+]
+description = "A collection of tools for working with timed audio transcriptions."
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 4 - Beta"
+]
+
+dependencies = [
+    "stlrcore>=1.0.0",
+    "ttkbootstrap",
+    "loguru",
+    "matplotlib"
+]
+
+[project.urls]
+Homepage = "https://github.com/lilellia/stlrapps"
