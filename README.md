@@ -22,8 +22,8 @@ generating ATL code.
 
 Designed for automatic subtitle generation. Supports export to SRT format.
 
-Her current design is a prototype for on-screen subtitle generation. See [Issue: **selene | on-screen subtitles
-**](https://github.com/lilellia/stlrapps/issues/1).
+Her current design is a prototype for on-screen subtitle generation. See [Issue: selene | on-screen subtitles
+](https://github.com/lilellia/stlrapps/issues/1).
 
 ## stlrapp
 
